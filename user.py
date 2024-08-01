@@ -171,6 +171,15 @@ COLUMNS =(
     "web",
 )
 
+# install git in your machine 
+# git --version
+# create repository in github
+# git config --global user.name "Suroj Shrestha"
+# git config --global user.email "suroj11.shrestha@gmail.com"
+# git add.
+# git commit -m "Your commit message"
+# git push origin
+
 def update_user_by_id(con, user_id, column_name, column_value):
     update_query = f"UPDATE users set {column_name}=? where id=?;"
     cur =con.cursor()
